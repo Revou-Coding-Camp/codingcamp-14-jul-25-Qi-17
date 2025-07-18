@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Ticket JayaFest 2025</title>
+
+    <!-- CSS external link -->
+     <link rel="stylesheet" href="CSS\styles.css">
+
+
+     <!-- Tailwind external link -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+
+<body>
+    <!-- Header Content with Tailwind CSS -->
+    <header class="flex justify-between items-center p-[8px] bg-zinc-300">
+        <!-- Logo Icon -->
+       <div class="h-16 w-16 rounded-full bg-center bg-cover bg-[url('Images/RF.png')]"></div>
+
+        <nav class="flex">
+            <a class="border rounded-[4px] py-[4px] px-[8px] text-decoration-none" href="#home-page">Home</a>
+            <a class="border rounded-[4px] py-[4px] px-[8px] text-decoration-none" href="#our-profile">Our Profile</a>
+            <a class="border rounded-[4px] py-[4px] px-[8px] text-decoration-none" href="#order-now">GET YOUR TICKET !!</a>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Content -->
+        <section id="home-page">
+            <header>
+                <h1 class="text-2xl font-bold text-center my-4">Welcome <span id="welcome-user">[User]</span> to Our
+                    Website
+                </h1>
+            </header>
+
+            <div>
+                <header>
+                    <h1 class="text-center ">
+                        Get ready for JayaFest 2025 "BerJaya Mengudara"!
+                    </h1>
+                </header>
+                <p class="text-center">Hi! Order your JayaFest 2025 tickets here. Get ready for an exciting time with friends and your favorite artists. Don’t miss out!</p>
+
+                <div class="banner-img"></div>
+            </div>
+        </section>
+
+        <hr />
+
+        <!-- Our Profile Content -->
+        <section id="our-profile">
+            <!-- logo -->
+            <header>
+
+                <div class="flex justify-center my-4">
+                    <div class="h-30 w-30 rounded-full bg-center bg-cover bg-[url('Images/RF.png')]"></div>
+                </div>
+            </header>
+            <!-- Our Profile -->
+            <header>
+                <h2 class="text-xl font-semibold text-center my-4">Our Profile</h2>
+            </header>
+
+            <article>
+                <p class="text-center"></p>
+                    Thank you for choosing Qi-Entertaiment for your JayaFest 2025 experience! We are committed to making your ticket booking easy and your festival moments unforgettable. Enjoy exclusive merchandise and special offers. Your satisfaction is our priority. See you at JayaFest 2025!
+                </p>
+            </article>
+        </section>
+
+        <hr />
+
+<!-- ORDER NOW Content -->
+<section id="order-now">
+    <header>
+        <h2 class="text-xl font-semibold text-center my-4">Order Now</h2>
+    </header>
+
+    <form>
+        <div class="flex flex-col items-center">
+            <label for="name-input" class="mb-2">Name:</label>
+            <input type="text" id="name-input" name="name" class="border rounded p-2 mb-4 w-1/2">
+
+            <label for="email-input" class="mb-2">Email:</label>
+            <input type="email" id="email-input" name="email" class="border rounded p-2 mb-4 w-1/2">
+
+            <button onclick="validateForm();" type="button"
+                class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Order Now</button>
+        </div>
+    </form>
+
+    <div id="message-output" class="text-center mt-4">  </div>
+</section>
+
+    </main>
+
+    <!-- Footer Content -->
+    <footer>
+        <p class="text-center text-gray-600 py-4">© 2025 Qi-Entertaiment . All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript External Link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
